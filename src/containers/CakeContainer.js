@@ -48,11 +48,11 @@ const CakeContainer = () => {
   };
   return (
     <div>
-      <h2>BNTA Bakery</h2>
+      <h2>BNTABakery</h2>
       {cakes.map((cake, index) => (
         <Cake key={index} cake={cake} sellCake={sellCake} />
       ))}
-      <h3>Value of cake sold in £: {totalValue}</h3>
+      <h3>Total Cakes Sold in £: {totalValue}</h3>
     </div>
   );
 };
